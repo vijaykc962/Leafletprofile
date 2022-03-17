@@ -1,0 +1,49 @@
+.block{
+    display: flex;
+    flex-direction: row;
+ justify-content:space-between  
+    
+}
+#map{
+    height: 40vh ;
+    background-color: lightpink;
+    border:solid blueviolet 5px;
+}
+#profile{
+    height:50px ;
+    border:solid blueviolet 5px;
+}
+#display{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    border:solid blueviolet 5px;
+    background-color: lightyellow;
+}
+#gender,#dob,#number,#address,#mail,#number,#job,#user{
+    border: solid black 2px;
+    border-radius: 10px;
+    width: 20%;
+    font-weight: bold;
+     background-color: lightpink;
+    
+}
+
+#image{
+    margin-left: 0;
+    height: 100%;
+    border-radius: 50%;
+}
+#name{
+    padding-top:20px ;
+    font-size: 40px;
+}
+.profile{
+    display: flex;
+    flex-direction: row;
+      
+}
+.bold{
+    font-weight: bold;
+}
